@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap'); */
+
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #30343F;
+  font-family: "Boldonse", system-ui;
+}
+
+#cards{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  height: 15em;
+  background-color: #11001C;
+  color: #FAFAFF;
+  border: #FAFAFF solid 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#cards li{
+  display: block;
+}
+#cards img{
+  height: 240px;
+  width: 500px;
+  object-fit: fill;
+  margin: auto;
+  /* object-fit: contain  ; */
+}
+#card_details{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+margin-top: 30px;
+  /* align-items: center; */
+  height: 10vh;
+}
+
+#card_details h2{
+  margin: 10px;
+}
+#card_details h3{
+  margin: 5px;
+}
+#card_details p{
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
