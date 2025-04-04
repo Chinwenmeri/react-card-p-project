@@ -13,9 +13,10 @@
 
 #cards{
   display: flex;
+  flex-direction: column;
   width: 70%;
   margin: 0 auto;
-  height: 15em;
+  /* height: 15em; */
   background-color: #11001C;
   color: #FAFAFF;
   border: #FAFAFF solid 1px;
@@ -23,11 +24,12 @@
   overflow: hidden;
 }
 #cards li{
-  display: block;
+  /* display: block; */
+  display: flex;
 }
 #cards img{
-  height: 240px;
-  width: 500px;
+  height: 15rem;
+  width: 15rem;
   object-fit: fill;
   margin: auto;
   /* object-fit: contain  ; */

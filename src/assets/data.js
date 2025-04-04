@@ -86,12 +86,14 @@ export const sculptureList = [{
   url: 'https://i.imgur.com/okTpbHhm.jpg',
   alt: 'A pale wire-like sculpture mounted on concrete wall and descending on the floor. It appears light.'
 
-}, {
-  id:12,
-  name: 'Hippos',
-  artist: 'Taipei Zoo',
-  description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
-  url: 'https://i.imgur.com/6o5Vuyu.jpg',
-  alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
+}, 
+// {
+//   id:12,
+//   name: 'Hippos',
+//   artist: 'Taipei Zoo',
+//   description: 'The Taipei Zoo commissioned a Hippo Square featuring submerged hippos at play.',
+//   url: 'https://i.imgur.com/6o5Vuyu.jpg',
+//   alt: 'A group of bronze hippo sculptures emerging from the sett sidewalk as if they were swimming.'
 
-}];
+// }
+];

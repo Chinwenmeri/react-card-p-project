@@ -1,8 +1,8 @@
 const Cards = ({cards}) => {
     return ( 
         <div id="cards">
-            {cards.map((card, index)=>(
-                <li key={card.id} style={{ marginBottom: '20px' }}>                        
+            {cards.map((card)=>(
+                <li key={card.id} >                        
                     <img  className= "sculpture_image" src={card.url} alt={card.alt} />
                     <div id="card_details">
                     <h2 className= "sculpture_name" >{card.name}</h2>
